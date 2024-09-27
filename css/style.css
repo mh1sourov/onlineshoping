@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container{
+border: red solid 1px;
+display: flex;
+/* justify-content: space-between; */
+}
+
+.nav-logo-container{
+border: 1px solid blue;
+display: flex;
+align-items: center;
+gap: 0;
+width: 50%;
+}
+
+.nav-logo-container img{
+    width: 60px;
+    object-fit: cover;
+}
+
+.nav-logo-container p{
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+.nav-item-container{
+border: 2px solid brown;
+width: 50%;
+
+}
+
